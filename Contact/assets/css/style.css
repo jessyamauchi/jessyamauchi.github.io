@@ -1,0 +1,160 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+}
+
+#container {
+	margin: auto;
+	display: block;
+	font-family: Lato, Raleway, sans-serif;
+	height: 657px;
+}
+
+#topbar {
+	position: fixed;
+	width: 100%;
+	min-width: 1400px;
+	padding-top: 10px;
+	height: 135px;
+	background: white;
+	z-index: 2;
+}
+
+#Jess-icon {
+	float: left;
+	left: 60px;
+	position: relative;
+	padding-top: 8px;
+
+}
+
+#header {
+	color: black;
+	font-size: 50px;
+	letter-spacing: 1px;
+	left: 180px;
+	top: 15px;
+ 	font-family: 'Dawning of a New Day', cursive;
+ 	display: inline-block;
+ 	margin-left: 140px;
+}
+
+.info-item {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 100;
+	color: black;
+	margin-left: 20px;
+	left: 80px;
+	position: relative;
+}
+
+#social {
+	margin-left: 90%;
+	top: 20px;
+	position: absolute;
+}
+
+#social:hover {
+	cursor: pointer;
+	color: #8699b5;
+}
+
+#secondbar {
+	position: fixed;
+	background: #C1C6C5;
+	padding-bottom: 12px;
+	padding-top: 10px;
+	width: 100%;
+	z-index: 1;
+	top: 145px;
+	min-width: 765px;
+	color: #184959;
+}
+
+.tabs-container {
+	position: relative;
+	display: inline-block;
+	left: 4%;
+}
+
+.tabs {
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	padding: 5px 10px;
+	opacity: 0.7;
+	color: #FFFFFF;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+}
+
+.tabs:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+	color: black;
+	top: 200px;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 40px;
+	letter-spacing: 10px;
+	
+}
+
+.contactpic {
+	top: 200px;
+	position: fixed;
+	right: 1%;
+}
+
+.paragraph-container {
+	clear: both;
+	display: inline-block;
+	font-family: Lato, Raleway, sans-serif;
+	height: 0px;
+	margin-left: 40px;
+	width: 561px;
+	top: 300px;
+	position: absolute;
+}
+
+.paragraph-header {
+	display: block;
+	float: left;
+	font-family: Lato, Raleway, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	height: 23px;
+	margin-right: 800px;
+	width: 80px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+
+}
+
+.paragraph {
+	display: block;
+	font-family: Lato, Raleway, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	width: 800px;
+	padding-bottom: 20px;
+	
+}
+
+
+
+

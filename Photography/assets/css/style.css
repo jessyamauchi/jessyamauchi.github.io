@@ -1,0 +1,381 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	margin-bottom: 600px;
+}
+
+#container {
+	margin: auto;
+	display: block;
+	font-family: Lato, Raleway, sans-serif;
+	height: 657px;
+}
+
+#topbar {
+	position: fixed;
+	width: 100%;
+	min-width: 1400px;
+	padding-top: 10px;
+	height: 135px;
+	background: white;
+	z-index: 2;
+}
+
+#Jess-icon {
+	float: left;
+	left: 60px;
+	position: relative;
+	padding-top: 8px;
+
+}
+
+#header {
+	color: black;
+	font-size: 50px;
+	letter-spacing: 1px;
+	left: 180px;
+	top: 15px;
+ 	font-family: 'Dawning of a New Day', cursive;
+ 	display: inline-block;
+ 	margin-left: 140px;
+}
+
+.info-item {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 100;
+	color: black;
+	margin-left: 20px;
+	left: 80px;
+	position: relative;
+}
+
+#social {
+	margin-left: 90%;
+	top: 20px;
+	position: absolute;
+}
+
+#social:hover {
+	cursor: pointer;
+	color: #8699b5;
+}
+
+#secondbar {
+	position: fixed;
+	background: #C1C6C5;
+	padding-bottom: 12px;
+	padding-top: 10px;
+	width: 100%;
+	z-index: 1;
+	top: 145px;
+	min-width: 765px;
+	color: #184959;
+}
+
+.tabs-container {
+	position: relative;
+	display: inline-block;
+	left: 4%;
+}
+
+.tabs {
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	padding: 5px 10px;
+	opacity: 0.7;
+	color: #FFFFFF;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+}
+
+.tabs:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pagetitle {
+	color: black;
+	top: 190px;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 40px;
+	position: absolute;
+	letter-spacing: 10px;
+}
+
+.genre-container {
+	top: 290px;
+	position: absolute;
+	display: block;
+	padding-left: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+.genre-item1 {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 5px 10px;
+	opacity: 0.7;
+	color: #53B1AA;
+	position: absolute;
+	width: 80%;
+  	height: 0px;
+ 	left: 30px;
+ 	margin: 0 auto;
+ 	margin-right: 2000px;
+ 	padding: 5px 10px;
+ 	background-color: clear;
+
+}
+
+.genre-item1:hover {
+	opacity: #53B1AA;;
+	cursor: pointer;
+}
+.genre-item2 {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	padding: 5px 10px;
+	opacity: 0.7;
+	color: #FFFFFF;
+	width: 80%;
+  	height: 2500px;
+ 	left: 80px;
+ 	background-color: clear;
+}
+
+.genre-item2:hover {
+	opacity: #53B1AA;;
+	cursor: pointer;
+}
+.genre-item3 {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 5px 10px;
+	opacity: 0.7;
+	color: #FFFFFF;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	width: 80%;
+  	height: 6000px;
+ 	background: clear;
+ 	left: 160px;
+ 	position: relative;
+ 	top: -2510px;
+}
+
+.genre-item3:hover {
+	opacity: #53B1AA;;
+	cursor: pointer;
+}
+
+#button {
+	color: #53B1AA;
+
+}
+
+
+.subtitle1 {
+	color: black;
+	top: 330px;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 40px;
+	position: relative;
+	letter-spacing: 10px;
+}
+
+
+.dancepics {
+  width: 100%;
+  height: 3000px;
+  background: clear;
+}
+
+.foodpics {
+  width: 100%;
+  height: 6200px;
+  background: clear;
+}
+
+.scenerypics {
+  width: 100%;
+  height: 11900px;
+  background: clear;
+}
+
+
+
+#content {
+	position: absolute;
+	top: 420px;
+	width: 100%;
+	min-width: 1400px;
+	overflow: hidden;
+}
+
+
+
+.dance {
+	width: 400px;
+	height: 440;
+	background: #53B1AA;
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+.organization {
+	position: relative;
+	float: left;
+	padding: 12px;
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.organization:hover {
+	cursor: pointer;
+}
+
+.timestamp {
+	position: relative;
+	float: right;
+	padding: 12px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.picture-container {
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	width: 380px;
+	height: 380px;
+}
+
+.picture {
+	position: absolute;
+	padding: 10px;
+	
+	width: 360px;
+	height: 360px;
+	left: 0px;
+}
+
+#overlay {
+	position: absolute;
+	background:rgba(0,0,0,.75);
+    text-align:center;
+    width: 380px;
+    height: 380px;
+    opacity: 0;
+    display: block;
+    left: 0px;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.picture-container:hover #overlay {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.title {
+	position: relative;
+}
+
+.title div {
+	position: relative;
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 24px;
+	width: 320px;
+	top: 20px;
+	left: 30px;
+	padding-bottom: 20px;
+}
+
+
+.subtitle2 {
+	color: black;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 40px;
+	position: relative;
+	letter-spacing: 10px;
+	top: 0px;
+	border-top-color: #53B1AA;
+
+}
+
+#content2{
+	position: absolute;
+	top: 3000px;
+	width: 100%;
+	min-width: 1400px;
+	overflow: hidden;
+}
+
+.food {
+	width: 400px;
+	height: 440;
+	background: #53B1AA;
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+.location {
+	position: relative;
+	float: left;
+	padding: 12px;
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.organization:hover {
+	cursor: pointer;
+}
+
+#content3{
+	position: absolute;
+	top: 6200px;
+	width: 100%;
+	min-width: 1400px;
+	overflow: hidden;
+}
+
+.scenery {
+	width: 400px;
+	height: 440;
+	background: #53B1AA;
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+.scroll-to-top {
+	color: black;
+	top: 11900px;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 40px;
+	position: absolute;
+	letter-spacing: 10px;
+}
+
